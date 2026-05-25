@@ -1,0 +1,53 @@
+name: gym_super_admin
+description: FitHub Super Admin - Gym Management Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^9.1.0
+  bloc: ^9.0.0
+
+  # Navigation
+  go_router: ^15.1.2
+
+  # DI
+  get_it: ^8.0.3
+  injectable: ^2.5.0
+
+  # Serialization
+  json_annotation: ^4.9.0
+  freezed_annotation: ^2.4.4
+
+  # Backend
+  supabase_flutter: ^2.9.0
+
+  # Functional
+  dartz: ^0.10.1
+  equatable: ^2.0.7
+
+  # Utils
+  uuid: ^4.5.1
+  intl: ^0.20.2
+  google_fonts: ^6.2.1
+  file_picker: ^8.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # Code generation
+  build_runner: ^2.4.15
+  injectable_generator: ^2.6.2
+  json_serializable: ^6.9.4
+  freezed: ^2.5.7
+
+flutter:
+  uses-material-design: true
